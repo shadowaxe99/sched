@@ -28,7 +28,7 @@ Shared dependencies between the generated files:
 
 14. messages: A variable that stores the list of email messages.
 
-15. msg: A variable that stores the individual email message being processed.
+15. msg: A variable that stores an individual email message.
 
 16. spaCy: A natural language processing library used for extracting scheduling details from email text.
 
@@ -36,10 +36,6 @@ Shared dependencies between the generated files:
 
 18. Zoom API: An API used to generate a meeting link and include it in the event details.
 
-19. messages().send: A method provided by the Gmail API to send emails.
+19. messages().send: A method of the Gmail API used to send confirmation emails.
 
 20. Error handling: Code and mechanisms for handling errors and edge cases.
-
-21. Testing and refinement: Processes and techniques for testing and improving the email scheduling AI agent.
-
-22. Deployment and ongoing maintenance: Processes and tasks related to deploying the agent to a production environment and maintaining its operation.
